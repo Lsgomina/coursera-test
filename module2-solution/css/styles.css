@@ -1,3 +1,6 @@
+
+		/*			Base styles			*/
+		
 *{
 	box-sizing: border-box;
 }
@@ -41,7 +44,6 @@ p{
 @media(min-width: 992px){
 	.col-lg-4{
 		float: left;
-		position: relative;
 		width: 30%;
 	}
 	.row div{
@@ -54,17 +56,12 @@ p{
 @media(min-width: 768px) and (max-width: 991px){
 	.col-md-6{
 		float: left;
-		position: relative;
 		width: 47.5%;
 		margin:1%;
 		
 	}
-		p{
-			
-		}
 	.col-md-12{
 		float: left;
-		position: relative;
 		width:97%;
 		margin:1%;
 	}
